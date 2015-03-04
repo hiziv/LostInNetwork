@@ -125,22 +125,3 @@ def send(data):
             result.close
         child.sendline ('exit')
         return derror
-
-
-#list_devices=open('list.txt').readlines() #This will read the list of devices that file is on the same location as the script -- it's something I have to change
-
-##pdb.set_trace()
-#for i in list_devices:
-#    x=i.split ()
-#    if len(x) == 7 :
-#        sMethod = (x[0])
-#        sHostname = (x[1])
-#        sIp = (x[2])
-#        sUsername = (x[3])
-#        sPassword = (x[4])
-#        sEnable = (x[5])
-#        sUID = (x[6])
-#        send(sMethod,sHostname,sIp,sUsername,sPassword,sEnable,sUID)    
-#    else:
-#        print ('not enough arguments for device ' + x[1])
-#
